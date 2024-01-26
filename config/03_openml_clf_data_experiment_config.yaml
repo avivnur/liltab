@@ -1,17 +1,17 @@
 name: "openml_clf"
-num_epochs: 100000
+num_epochs: 100
 learning_rate: 0.001
 weight_decay: 0
-batch_size: 37
+batch_size: 4
 gradient_clipping: False
 early_stopping_intervals: 100
 
-support_size: 3
-query_size: 29
+support_size: 1
+query_size: 15
 
-hidden_representation_size: 32
+hidden_representation_size: 256
 n_hidden_layers: 3
-hidden_size: 32
+hidden_size: 256
 dropout_rate: 0.1
 is_classifier: True
 
